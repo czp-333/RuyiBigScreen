@@ -1,0 +1,45 @@
+{
+  "name": "ruyibigscreen",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "lint": "eslint src",
+    "format": "prettier --write \"src/**/*.{vue,js,ts,tsx,json,css,scss,md}\"",
+    "typecheck": "vue-tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.11.0",
+    "axios": "^1.7.2",
+    "echarts": "^5.4.0",
+    "msw": "^2.14.6",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.0",
+    "vue-echarts": "^6.5.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@playwright/test": "^1.47.0",
+    "@types/node": "^20.14.0",
+    "@vitejs/plugin-vue": "^5.0.0",
+    "@vue/tsconfig": "^0.5.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.27.0",
+    "happy-dom": "^20.10.6",
+    "jsdom": "^29.1.1",
+    "prettier": "^3.3.0",
+    "sass": "^1.77.0",
+    "stylelint": "^16.8.0",
+    "typescript": "~5.4.0",
+    "typescript-eslint": "^8.3.0",
+    "vite": "^5.4.0",
+    "vitest": "^2.0.0",
+    "vue-tsc": "^2.0.0"
+  }
+}
